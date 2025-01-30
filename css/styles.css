@@ -95,132 +95,108 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .contact-page-container {
-display: flex;
-}
-*/
-/* CONTACT-PAGE-SOURCE */
-/* .contact-page-source {
-margin-right: 12px;
-border-radius: 20px;
-overflow: hidden;
+.intro-page {
+  display: flex;
 }
 
-.contact-page-content {
+/* HERO */
+.hero {
+  --text-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;/*
+  margin-right: 12px; */
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+.hero-main {
+flex-grow: 1;
 display: flex;
-width: 570px;
-padding-top: 55px;
-padding-left: 61px;
-padding-right: 121px;
-padding-bottom: 203px;
-background-image: url(../img/main-photo.svg);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
 flex-direction: column;
-align-items: start;
+align-items: flex-start;
+padding: 55px 60px;
+background-color: #222;
+background-image: url(../img/hero-bg.jpg);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
 }
 
-.contact-page-link {
-padding: 4px 14px;
-margin: 0;
-margin-bottom: 60px;
-font-size: 14px;
-font-weight: 500;
-border: 1px solid var(--primary);
-border-radius: 41px;
-text-decoration: none;
-color: var(--primary);
+.hero-badge {
+  padding: 5px 15px;
+  border: 1px solid var(--text-color);
+  margin-bottom: 60px;
+  border-radius: 41px;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 500;
+  /* margin: 0; */
 }
 
-.contact-page-link:hover {
-color: #4dc490;
-border: 1px solid #4dc490;
-border-radius: 41px;
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 46px;
 }
 
-.contact-page-link:active {
-color: #4dc490;
-border: 1px solid #4dc490;
-border-radius: 41px;
-opacity: 0.6;
+.hero-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
 }
 
-.contact-page-heading {
-width: 389px;
-font-size: 36px;
-line-height: 46px;
-letter-spacing: 0;
-font-weight: 700;
-padding: 0;
-margin: 0;
-margin-bottom: 25px;
+.hero-bottom {
+  padding: 28px;
+  background-color: var(--green);
+  font-size: 19px;
+  text-align: center;
 }
 
-.contact-page-text {
-width: 347px;
-margin: 0;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-}
 
-.contact-page-button {
-width: 100%;
-background-color: #4dc490;
-color: var(--primary);
-font-size: 19px;
-font-weight: 400;
-padding: 29px 145px;
-border: 0;
-}
 
-.contact-page-button:hover {
-opacity: 0.8;
-}
 
-.contact-page-button:active {
-opacity: 0.6;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* CONTACT-PAGE-REGISTRATION */
