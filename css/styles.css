@@ -77,6 +77,11 @@ img {
   height: auto;
 }
 
+*:focus {
+outline: 2px dotted var(--purple);
+outline-offset: 3px;
+}
+
 /* CONTAINER */
 .container {
   width: 100%;
@@ -94,7 +99,7 @@ img {
   padding-bottom: 80px;
 }
 
-
+/* INTRO-PAGE */
 .intro-page {
   display: flex;
 }
@@ -105,8 +110,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 570px;/*
-  margin-right: 12px; */
+  max-width: 570px;
   border-radius: 20px;
   overflow: hidden;
   color: var(--text-color);
@@ -133,7 +137,6 @@ background-repeat: no-repeat;
   font-size: 14px;
   line-height: normal;
   font-weight: 500;
-  /* margin: 0; */
 }
 
 .hero-heading {
@@ -156,131 +159,72 @@ background-repeat: no-repeat;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CONTACT-PAGE-REGISTRATION */
-/* .contact-page-registration {
-width: 570px;
-padding: 55px 60px 40px;
-background-color: var(--primary);
-border-radius: 20px;
+/* SIGNUP-FORM */
+.signup-form {
+  width: 100%;
+  max-width: 570px;
+  padding: 55px 60px 40px;
+  margin-left: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-.registration-heading {
-font-size: 32px;
-font-weight: 600;
-line-height: 42px;
-color: var(--accent-color);
-margin-top: 0;
-margin-bottom: 79px;
+.signup-form-heading {
+  margin-top: 0;
+  margin-bottom: 65px;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
 }
 
-.form-fields {
-margin-bottom: 63px;
+.signup-form-fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
 }
 
-.form-group:not(:last-child) {
-margin-bottom: 35px;
+.signup-form-field {
+  padding-top: 15px;
+  padding-bottom: 14px;
+  border: 0;
+  border-bottom: 1px solid #555;
+  color: #555;
 }
 
-.form-field {
-width: 100%;
-padding: 0;
-padding-bottom: 11px;
-border: 0;
-border-bottom: 1px solid var(--accent-color);
-font-size: 18px;
-color: var(--accent-color);
-outline-color: #655af2;
-outline-offset: 3px;
+.signup-form-field:not(:last-child) {
+  margin-bottom: 20px;
 }
 
-.form-button {
-outline-color: #655af2;
-outline-offset: 3px;
-width: 100%;
-font-size: 16px;
-font-weight: 600;
-padding: 20px 149px;
-margin-bottom: 10px;
-color: var(--primary);
-background-color: #655af2;
-border-radius: 10px;
-border: 0;
+.signup-form-field:focus {
+  border-color: #000;
+  font-weight: 600;
+  color: #000;
+
+  /* Videodagi darsda bu stil qo`shilmay qolib ketgan!!!:
+  font-size: 18px; */
 }
 
-.form-button:hover {
-background-color: #3a2bf8;
-opacity: 0.8;
+.signup-form-submit {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  border: 0;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  background-color: var(--purple);
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  }
+
+.signup-form-notice {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
 }
 
-.form-button:active {
-opacity: 0.6;
+.signup-form-notice-link {
+  font-weight: 500;
+  color: var(--red);
 }
-
-.contact-page-terms-heading {
-display: flex;
-margin: 0;
-font-size: 11px;
-font-weight: 400;
-line-height: 15px;
-color: #555;
-justify-content: center;
-align-items: center;
-}
-
-.contact-page-terms-link {
-font-weight: 500;
-color: #f03535;
-outline-color: #f03535;
-outline-offset: 3px;
-}
-
-.contact-page-terms-link:hover {
-opacity: 0.8;
-}
-
-.contact-page-terms-link:active {
-opacity: 0.6;
-} */
